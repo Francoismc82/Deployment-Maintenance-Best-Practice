@@ -1,0 +1,38 @@
+● List possible sources of data used to initialize a new system database. Briefly describe
+the tools and methods used to load initial data into the database.
+
+Possible data sources include manual (paper) records, files or databases of a system beingreplaced, files or databases of other systems in the organization, and manual data entry duringtraining or normal system operation. Tools for initializing database content include normal dataentry programs, optical character recognition software, custom-developed data conversion programs, and DBMS import and export utilities.
+
+● How do user documentation and training activities differ between end users and
+system operators?
+
+Operator documentation and training covers topics, such as system startup and shutdown, backup and recovery, and software installation and upgrade, that are not typically covered inend user documentation. System operators are usually more highly trained than end users, sotheir documentation often has fewer “bells and whistles.”System operator training generally omits the business context. The relatively small number of operators usually precludes classroom-based approaches. Relatively high skill and experiencelevels allow greater use of self-study as a training method.End user training emphasizes hands-on system use to achieve specific business objectives.Training in the business context is as important as training in system specifics. Relatively largenumbers of end users allow one-to-many (classroom) training sessions and train-the-trainer approaches. Variation in skills and experience levels necessitate several training methods and materials.End user documentation and training focus on the functions and procedures of the new system.This would include such things as the screens, shortcut keys, sequences of screens, outputreports and screens, and menus or navigation paths to access the system functions
+
+● Briefly describe direct, parallel, and phased deployments. What are the advantages and
+disadvantages of each deployment approach?
+
+Direct installation installs a new system, quickly makes it operational, and immediately turnsoff any overlapping systems. Direct installation is the simplest to plan and execute, but it runsthe greatest risk of interrupted service.
+Parallel installation operates both the old and new systems for an extended period of time.Parallel installation is relatively complex to plan and implement, but it reduces the risk of interrupted service.Phased installation installs a new system and makes it operational in a series of steps or phases.Phased installation breaks up the complexity of planning and execution into manageable pieces, but the total planning and execution effort is greater than with the other methods.
+
+● Describe four types of system maintenance and provide two examples of each type
+not listed in the task.
+
+Corrective Change
+Corrective change, most commonly referred to as “bugs,” is the most typical change associated with maintenance work. Corrective changes address errors and faults in your software that could affect various areas of your software; design, logic or code. Most commonly, these changes are sprung by bug reports created by users. It is important to note that sometimes problem reports submitted by users are actually enhancements of the system not bugs.
+
+Adaptive Change
+Adaptive change is triggered by changes in the environment your software lives in. An adaptive change can be triggered by changes to the operating system, hardware, software dependencies and even organizational business rules and policies.  These modifications to the environment can trigger changes within other parts of your software. For example, updating the server, compilers, etc or modifications to shipping carriers and payment processors can affect functionality in your software.
+
+Perfective Change
+Perfective changes refers to the evolution of requirements and features in your existing system. As your software gets exposed to users they will think of different ways to expand the system or suggest new features that they would like to see as part of the software, which in turn can become future enhancements to the system. Perfective changes also includes removing features from a system that are not effective and functional to the end goal of the system. Surprisingly, 50-55% of most maintenance work is attributed to perfective changes.
+
+
+Preventive Change
+Preventive changes refer to changes made to increase the understanding and maintainability of your software in the long run. Preventive changes are focused in decreasing the deterioration of your software in the long run. Restructuring, optimizing code and updating documentation are common preventive changes. Executing preventive changes reduces the amount of unpredictable effects a software can have in the long term and helps it become scalable, stable, understandable and maintainable.
+
+● What are the main factors that affect the costs of reengineering a system?
+
+The quality of the software to be re-engineered
+The tool support available for re-engineering
+The extent of data conversion required
+The availability of expert sstaff
